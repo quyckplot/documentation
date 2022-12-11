@@ -11,7 +11,7 @@ import styles from './index.module.css';
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   // redirect to /docs/tutorial
-  return <Redirect to="docs/tutorial" />;
+  return <Redirect to="docs/reference/FileData" />;
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
