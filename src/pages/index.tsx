@@ -4,11 +4,14 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
+import { Redirect } from '@docusaurus/router';
 
 import styles from './index.module.css';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
+  // redirect to /docs/tutorial
+  return <Redirect to="docs/tutorial" />;
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">

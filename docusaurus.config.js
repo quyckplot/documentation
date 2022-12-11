@@ -8,8 +8,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 const config = {
   title: "Quyckplot",
   tagline: "Dinosaurs are cool",
-  url: "https://your-docusaurus-test-site.com",
-  baseUrl: "/",
+  url: "https://quyckplot.github.io",
+  baseUrl: "/documentation/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
@@ -17,7 +17,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "quyckplot", // Usually your GitHub org/user name.
-  projectName: "quyckplot", // Usually your repo name.
+  projectName: "documentation", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -60,30 +60,30 @@ const config = {
         title: "Quyckplot Docs",
         logo: {
           alt: "Quyckplot Logo",
-          src: "img/logo.svg",
+          src: "img/logo.png",
         },
         items: [
+          // {
+          //   type: "doc",
+          //   docId: "tutorial/index",
+          //   position: "left",
+          //   label: "Tutorial",
+          // },
+          // {
+          //   type: "doc",
+          //   docId: "examples/index",
+          //   position: "left",
+          //   label: "Examples",
+          // },
           {
             type: "doc",
-            docId: "tutorial/index",
-            position: "left",
-            label: "Tutorial",
-          },
-          {
-            type: "doc",
-            docId: "examples/index",
-            position: "left",
-            label: "Examples",
-          },
-          {
-            type: "doc",
-            docId: "reference/index",
+            docId: "reference/FileData/index",
             position: "left",
             label: "API Reference",
           },
           // { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/quyckplot/quyckplot",
+            href: "https://github.com/quyckplot/documentation",
             label: "GitHub",
             position: "right",
           },
@@ -135,7 +135,7 @@ const config = {
               // },
               {
                 label: "GitHub",
-                href: "https://github.com/quyckplot/quyckplot",
+                href: "https://github.com/quyckplot/documentation",
               },
               {
                 label: "PyPI",
