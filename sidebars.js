@@ -39,6 +39,15 @@ const sidebars = {
         "reference/DataSet/map",
       ],
     },
+    {
+      type: "category",
+      label: "Plotter",
+      items: [
+        "reference/Plotter/index",
+        "reference/Plotter/start_session",
+        "reference/Plotter/new_plot",
+      ],
+    },
   ],
 };
 
